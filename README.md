@@ -101,13 +101,11 @@ AI & Full-Stack Developer specializing in **Production-Grade Intelligent Systems
 
 ---
 
-## 📈 Contribution Activity Graph
+## 🏙️ 3D Isometric Contribution Activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vishwas721&theme=tokyonight&hide_border=true&radius=8" width="100%" />
+  <img src="https://raw.githubusercontent.com/Vishwas721/Vishwas721/main/profile-3d-contrib/profile-night-view.svg" alt="3D Contribution Graph" width="100%" />
 </div>
-
----
 
 <div align="center">
   <i>"Solving real-world problems through intelligent systems."</i>[cite: 2]
