@@ -103,13 +103,9 @@ AI & Full-Stack Developer specializing in **Production-Grade Intelligent Systems
 
 ## 🏙️ 3D Isometric Contribution Activity
 
-To generate an interactive 3D activity view on your profile:
-
 <div align="center">
-  <img src="https://github-profile-3d-contrib.puzzle3d.workers.dev/user/Vishwas721" alt="3D Contribution Graph" width="100%" />
+  <img src="https://raw.githubusercontent.com/Vishwas721/Vishwas721/main/profile-3d-contrib/profile-night-view.svg" alt="3D Contribution Graph" width="100%" />
 </div>
-
----
 
 <div align="center">
   <i>"Solving real-world problems through intelligent systems."</i>
