@@ -90,13 +90,6 @@ AI & Full-Stack Developer specializing in **Production-Grade Intelligent Systems
 - Engineered a geospatial duplicate detection system using **PostGIS** to auto-merge report grievances within a 50m radius, keeping query latency **<5 seconds**[cite: 2].
 - Validated system performance across a live pilot of **50+ real-world reports** across Bengaluru[cite: 2].
 
----
-
-## 📊 Performance & Metrics
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vishwas721&theme=tokyonight&hide_border=true&radius=8" width="100%" />
-</div>
 
 ---
 
