@@ -112,5 +112,5 @@ To generate an interactive 3D activity view on your profile:
 ---
 
 <div align="center">
-  <i>"Solving real-world problems through intelligent systems."</i>[cite: 2]
+  <i>"Solving real-world problems through intelligent systems."</i>
 </div>
