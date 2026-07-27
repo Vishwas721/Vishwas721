@@ -95,8 +95,7 @@ AI & Full-Stack Developer specializing in **Production-Grade Intelligent Systems
 ## 📊 Performance & Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vishwas721&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishwas721&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vishwas721&theme=tokyonight&hide_border=true&radius=8" width="100%" />
 </div>
 
 ---
