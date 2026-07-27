@@ -23,7 +23,7 @@
 
 ## ⚡ Executive Summary
 
-AI & Full-Stack Developer specializing in **Production-Grade Intelligent Systems**, **Geospatial Architectures**, and **Agentic RAG Pipelines**. Experienced in building high-throughput backends and local-first AI applications with measurable latency and accuracy optimizations.
+AI & Full-Stack Developer specializing in **Production-Grade Intelligent Systems**, **Geospatial Architectures**, and **Agentic RAG Pipelines**[cite: 2]. Experienced in building high-throughput backends and local-first AI applications with measurable latency and accuracy optimizations[cite: 2].
 
 * 🎓 **Education:** B.Tech in Information Science and Engineering @ REVA University, Bengaluru (**CGPA: 9.16**)[cite: 2]
 * 🏆 **Hackathon Finalist:** Top 15 Finalist at *Code Cubicle 5.0* (Microsoft Office, Bangalore)[cite: 2]
@@ -95,18 +95,20 @@ AI & Full-Stack Developer specializing in **Production-Grade Intelligent Systems
 ## 📊 Performance & Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vishwas721&show_icons=true&theme=github_dark&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishwas721&layout=compact&theme=github_dark&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Vishwas721&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishwas721&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
 </div>
 
 ---
 
-## 🏙️ 3D Isometric Contribution Activity
+## 📈 Contribution Activity Graph
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Vishwas721/Vishwas721/main/profile-3d-contrib/profile-night-view.svg" alt="3D Contribution Graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vishwas721&theme=tokyonight&hide_border=true&radius=8" width="100%" />
 </div>
 
+---
+
 <div align="center">
-  <i>"Solving real-world problems through intelligent systems."</i>
+  <i>"Solving real-world problems through intelligent systems."</i>[cite: 2]
 </div>
