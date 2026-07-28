@@ -23,11 +23,11 @@
 
 ## ⚡ Executive Summary
 
-AI & Full-Stack Developer specializing in **Production-Grade Intelligent Systems**, **Geospatial Architectures**, and **Agentic RAG Pipelines**[cite: 2]. Experienced in building high-throughput backends and local-first AI applications with measurable latency and accuracy optimizations[cite: 2].
+AI & Full-Stack Developer specializing in **Production-Grade Intelligent Systems**, **Geospatial Architectures**, and **Agentic RAG Pipelines**. Experienced in building high-throughput backends and local-first AI applications with measurable latency and accuracy optimizations.
 
-* 🎓 **Education:** B.Tech in Information Science and Engineering @ REVA University, Bengaluru (**CGPA: 9.16**)[cite: 2]
-* 🏆 **Hackathon Finalist:** Top 15 Finalist at *Code Cubicle 5.0* (Microsoft Office, Bangalore)[cite: 2]
-* ⚙️ **Core Focus:** Agentic AI Orchestration, Hybrid RAG (Vector + Graph DBs), Geospatial Optimization[cite: 2]
+* 🎓 **Education:** B.Tech in Information Science and Engineering @ REVA University, Bengaluru (**CGPA: 9.16**)
+* 🏆 **Hackathon Finalist:** Top 15 Finalist at *Code Cubicle 5.0* (Microsoft Office, Bangalore)
+* ⚙️ **Core Focus:** Agentic AI Orchestration, Hybrid RAG (Vector + Graph DBs), Geospatial Optimization
 
 ---
 
