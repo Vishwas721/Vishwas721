@@ -71,9 +71,9 @@ AI & Full-Stack Developer specializing in **Production-Grade Intelligent Systems
 
 ### 🏥 SummAID | Medical Intelligence Platform
 > **Tech Stack:** `Python` • `LangChain` • `pgvector` • `FastAPI`[cite: 2]
-- Architected a hybrid RAG pipeline that **reduced clinical review time from 12 minutes to <50 seconds**[cite: 2].
-- Engineered a **"Glass Box" citation system** linking AI summaries directly to source PDF pages for complete clinician traceability[cite: 2].
-- Achieved **95% retrieval accuracy** across internal medical case-report evaluation sets[cite: 2].
+- Architected a hybrid RAG pipeline that **reduced clinical review time from 12 minutes to <50 seconds**.
+- Engineered a **"Glass Box" citation system** linking AI summaries directly to source PDF pages for complete clinician traceability.
+- Achieved **95% retrieval accuracy** across internal medical case-report evaluation sets.
 
 ---
 
