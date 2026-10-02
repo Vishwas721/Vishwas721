@@ -70,7 +70,7 @@ AI & Full-Stack Developer specializing in **Production-Grade Intelligent Systems
 ## 📌 Featured Engineering Projects
 
 ### 🏥 SummAID | Medical Intelligence Platform
-> **Tech Stack:** `Python` • `LangChain` • `pgvector` • `FastAPI`[cite: 2]
+> **Tech Stack:** `Python` • `LangChain` • `pgvector` • `FastAPI`
 - Architected a hybrid RAG pipeline that **reduced clinical review time from 12 minutes to <50 seconds**.
 - Engineered a **"Glass Box" citation system** linking AI summaries directly to source PDF pages for complete clinician traceability.
 - Achieved **95% retrieval accuracy** across internal medical case-report evaluation sets.
@@ -78,7 +78,7 @@ AI & Full-Stack Developer specializing in **Production-Grade Intelligent Systems
 ---
 
 ### 🛡️ Privex | Agentic AI Visual Firewall & Memory System
-> **Tech Stack:** `Python` • `LangGraph` • `YOLOv8` • `Neo4j` • `FastAPI` • `Node.js`[cite: 2]
+> **Tech Stack:** `Python` • `LangGraph` • `YOLOv8` • `Neo4j` • `FastAPI` • `Node.js`
 - Engineered a local-first Visual Firewall using **YOLOv8** and **EasyOCR** for zero-latency credential redaction during video meetings via OS window hooks[cite: 2].
 - Built a **Hybrid RAG memory pipeline (Vector + Neo4j Graph)** orchestrated by LangGraph for multi-hop contextual telemetry retrieval[cite: 2].
 - Eliminated hallucinations and graph bloat using perceptual hashing, temporal debouncing, and Pydantic structured extractions[cite: 2].
@@ -86,9 +86,9 @@ AI & Full-Stack Developer specializing in **Production-Grade Intelligent Systems
 ---
 
 ### 🗺️ NagarikOne | Geospatial Civic Issue Platform
-> **Tech Stack:** `React Native` • `PostGIS` • `Node.js` • `Vercel`[cite: 2]
+> **Tech Stack:** `React Native` • `PostGIS` • `Node.js` • `Vercel`
 - Engineered a geospatial duplicate detection system using **PostGIS** to auto-merge report grievances within a 50m radius, keeping query latency **<5 seconds**[cite: 2].
-- Validated system performance across a live pilot of **50+ real-world reports** across Bengaluru[cite: 2].
+- Validated system performance across a live pilot of **50+ real-world reports** across Bengaluru.
 
 ---
 
