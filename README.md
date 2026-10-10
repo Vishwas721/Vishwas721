@@ -79,9 +79,9 @@ AI & Full-Stack Developer specializing in **Production-Grade Intelligent Systems
 
 ### 🛡️ Privex | Agentic AI Visual Firewall & Memory System
 > **Tech Stack:** `Python` • `LangGraph` • `YOLOv8` • `Neo4j` • `FastAPI` • `Node.js`
-- Engineered a local-first Visual Firewall using **YOLOv8** and **EasyOCR** for zero-latency credential redaction during video meetings via OS window hooks[cite: 2].
-- Built a **Hybrid RAG memory pipeline (Vector + Neo4j Graph)** orchestrated by LangGraph for multi-hop contextual telemetry retrieval[cite: 2].
-- Eliminated hallucinations and graph bloat using perceptual hashing, temporal debouncing, and Pydantic structured extractions[cite: 2].
+- Engineered a local-first Visual Firewall using **YOLOv8** and **EasyOCR** for zero-latency credential redaction during video meetings via OS window hooks.
+- Built a **Hybrid RAG memory pipeline (Vector + Neo4j Graph)** orchestrated by LangGraph for multi-hop contextual telemetry retrieval.
+- Eliminated hallucinations and graph bloat using perceptual hashing, temporal debouncing, and Pydantic structured extractions.
 
 ---
 
