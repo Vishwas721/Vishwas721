@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="580" height="300" role="img" aria-label="SummAID: On-prem medical intelligence">
+<defs>
+  <radialGradient id="g1" cx="1" cy="0" r="1"><stop offset="0" stop-color="#059669" stop-opacity=".22"/><stop offset=".6" stop-color="#059669" stop-opacity="0"/></radialGradient>
+  <linearGradient id="sg1" x1="0" x2="1"><stop offset="0" stop-color="#059669" stop-opacity="0"/><stop offset=".5" stop-color="#059669"/><stop offset="1" stop-color="#059669" stop-opacity="0"/></linearGradient>
+  <clipPath id="cg1"><rect width="580" height="300" rx="18"/></clipPath>
+</defs>
+<style>
+  text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif}
+  .t{font-size:30px;font-weight:800;fill:#111827;letter-spacing:-.6px}
+  .k{font-family:'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace;font-size:12.5px;fill:#059669;letter-spacing:1.2px}
+  .b{font-size:15px;fill:#556274}
+  .c,.st{font-family:'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace;font-size:12px;fill:#334155}
+  .st{font-size:11px;font-weight:700;letter-spacing:1px;fill:#0891b2}
+  .mv{font-size:22px;font-weight:800;fill:#059669}
+  .ml{font-family:'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace;font-size:12.5px;fill:#556274}
+  .scan{animation:scan 5s ease-in-out infinite;animation-delay:0.6s}
+  @keyframes scan{0%{transform:translateX(-580px)}60%,100%{transform:translateX(580px)}}
+  .dot{animation:d 1.8s ease-in-out infinite} @keyframes d{50%{opacity:.25}}
+</style>
+<g clip-path="url(#cg1)">
+  <rect width="580" height="300" fill="#f6f8fb"/>
+  <rect width="580" height="300" fill="url(#g1)"/>
+  <rect class="scan" x="0" y="0" width="580" height="2" fill="url(#sg1)"/>
+  <rect x="0" y="0" width="5" height="300" fill="#059669" opacity=".85"/>
+</g>
+<rect x=".5" y=".5" width="579" height="299" rx="18" fill="none" stroke="#d6dde7"/>
+<text x="28" y="46" class="k">ON-PREM MEDICAL INTELLIGENCE</text>
+<g transform="translate(479,28)"><rect width="77" height="24" rx="12" fill="none" stroke="#0891b2" stroke-opacity=".5"/>
+<circle class="dot" cx="13" cy="12" r="3.5" fill="#0891b2"/><text x="22" y="16" class="st">SHIPPED</text></g>
+<text x="28" y="88" class="t">SummAID</text>
+<text x="28" y="122" class="b">Hybrid RAG over encrypted patient records with a “Glass Box”</text><text x="28" y="144" class="b">citation system linking every claim back to its source page.</text>
+<text x="28" y="228" class="mv">12 min → &lt;50 s</text>
+<text x="211" y="228" class="ml">clinical review time</text>
+<g transform="translate(28,250)"><rect width="66" height="26" rx="7" fill="#e9eef5" stroke="#d6dde7"/><text x="11" y="17.5" class="c">Python</text></g><g transform="translate(102,250)"><rect width="73" height="26" rx="7" fill="#e9eef5" stroke="#d6dde7"/><text x="11" y="17.5" class="c">FastAPI</text></g><g transform="translate(183,250)"><rect width="81" height="26" rx="7" fill="#e9eef5" stroke="#d6dde7"/><text x="11" y="17.5" class="c">pgvector</text></g><g transform="translate(272,250)"><rect width="88" height="26" rx="7" fill="#e9eef5" stroke="#d6dde7"/><text x="11" y="17.5" class="c">LangChain</text></g>
+</svg>

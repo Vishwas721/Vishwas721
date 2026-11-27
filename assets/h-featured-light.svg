@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 70" width="1200" height="70" role="img" aria-label="featured work">
+<defs><linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#0891b2"/><stop offset=".35" stop-color="#7c3aed"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></linearGradient></defs>
+<style>
+  .i{font-family:'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace;font-size:15px;fill:#0891b2}
+  .t{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:28px;font-weight:800;fill:#111827;letter-spacing:-.4px}
+  .s{font-family:'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;fill:#556274}
+  .ln{transform-origin:0 0;transform:scaleX(0);animation:g 1.2s .2s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes g{to{transform:scaleX(1)}}
+</style>
+<text x="2" y="38" class="i">02</text>
+<text x="44" y="40" class="t">featured work</text>
+<text x="1198" y="38" class="s" text-anchor="end">8 systems, real metrics</text>
+<rect class="ln" x="2" y="60" width="1196" height="2" rx="1" fill="url(#hl)"/>
+</svg>

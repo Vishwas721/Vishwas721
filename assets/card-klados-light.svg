@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="580" height="300" role="img" aria-label="Klados: Lead discovery engine">
+<defs>
+  <radialGradient id="g6" cx="1" cy="0" r="1"><stop offset="0" stop-color="#7c3aed" stop-opacity=".22"/><stop offset=".6" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+  <linearGradient id="sg6" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed" stop-opacity="0"/><stop offset=".5" stop-color="#7c3aed"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></linearGradient>
+  <clipPath id="cg6"><rect width="580" height="300" rx="18"/></clipPath>
+</defs>
+<style>
+  text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif}
+  .t{font-size:30px;font-weight:800;fill:#111827;letter-spacing:-.6px}
+  .k{font-family:'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace;font-size:12.5px;fill:#7c3aed;letter-spacing:1.2px}
+  .b{font-size:15px;fill:#556274}
+  .c,.st{font-family:'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace;font-size:12px;fill:#334155}
+  .st{font-size:11px;font-weight:700;letter-spacing:1px;fill:#059669}
+  .mv{font-size:22px;font-weight:800;fill:#7c3aed}
+  .ml{font-family:'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace;font-size:12.5px;fill:#556274}
+  .scan{animation:scan 5s ease-in-out infinite;animation-delay:3.6s}
+  @keyframes scan{0%{transform:translateX(-580px)}60%,100%{transform:translateX(580px)}}
+  .dot{animation:d 1.8s ease-in-out infinite} @keyframes d{50%{opacity:.25}}
+</style>
+<g clip-path="url(#cg6)">
+  <rect width="580" height="300" fill="#f6f8fb"/>
+  <rect width="580" height="300" fill="url(#g6)"/>
+  <rect class="scan" x="0" y="0" width="580" height="2" fill="url(#sg6)"/>
+  <rect x="0" y="0" width="5" height="300" fill="#7c3aed" opacity=".85"/>
+</g>
+<rect x=".5" y=".5" width="579" height="299" rx="18" fill="none" stroke="#d6dde7"/>
+<text x="28" y="46" class="k">LEAD DISCOVERY ENGINE</text>
+<g transform="translate(499,28)"><rect width="57" height="24" rx="12" fill="none" stroke="#059669" stroke-opacity=".5"/>
+<circle class="dot" cx="13" cy="12" r="3.5" fill="#059669"/><text x="22" y="16" class="st">LIVE</text></g>
+<text x="28" y="88" class="t">Klados</text>
+<text x="28" y="122" class="b">Sweeps cities cell by cell on an H3 grid, audits every business</text><text x="28" y="144" class="b">website in a stealth browser and turns the gaps into</text><text x="28" y="166" class="b">ready-to-send pitches.</text>
+<text x="28" y="228" class="mv">H3 res-9</text>
+<text x="136" y="228" class="ml">grid scanning + site audits</text>
+<g transform="translate(28,250)"><rect width="73" height="26" rx="7" fill="#e9eef5" stroke="#d6dde7"/><text x="11" y="17.5" class="c">FastAPI</text></g><g transform="translate(109,250)"><rect width="81" height="26" rx="7" fill="#e9eef5" stroke="#d6dde7"/><text x="11" y="17.5" class="c">Redis/RQ</text></g><g transform="translate(198,250)"><rect width="81" height="26" rx="7" fill="#e9eef5" stroke="#d6dde7"/><text x="11" y="17.5" class="c">Camoufox</text></g><g transform="translate(286,250)"><rect width="66" height="26" rx="7" fill="#e9eef5" stroke="#d6dde7"/><text x="11" y="17.5" class="c">Ollama</text></g>
+</svg>

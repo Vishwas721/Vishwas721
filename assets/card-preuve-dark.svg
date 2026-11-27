@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="580" height="300" role="img" aria-label="Preuve: Evidence-driven idea validation">
+<defs>
+  <radialGradient id="g4" cx="1" cy="0" r="1"><stop offset="0" stop-color="#22d3ee" stop-opacity=".22"/><stop offset=".6" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+  <linearGradient id="sg4" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+  <clipPath id="cg4"><rect width="580" height="300" rx="18"/></clipPath>
+</defs>
+<style>
+  text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif}
+  .t{font-size:30px;font-weight:800;fill:#e8eef6;letter-spacing:-.6px}
+  .k{font-family:'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace;font-size:12.5px;fill:#22d3ee;letter-spacing:1.2px}
+  .b{font-size:15px;fill:#8a97ab}
+  .c,.st{font-family:'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace;font-size:12px;fill:#b9c6d8}
+  .st{font-size:11px;font-weight:700;letter-spacing:1px;fill:#34d399}
+  .mv{font-size:22px;font-weight:800;fill:#22d3ee}
+  .ml{font-family:'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace;font-size:12.5px;fill:#8a97ab}
+  .scan{animation:scan 5s ease-in-out infinite;animation-delay:2.4s}
+  @keyframes scan{0%{transform:translateX(-580px)}60%,100%{transform:translateX(580px)}}
+  .dot{animation:d 1.8s ease-in-out infinite} @keyframes d{50%{opacity:.25}}
+</style>
+<g clip-path="url(#cg4)">
+  <rect width="580" height="300" fill="#0f1521"/>
+  <rect width="580" height="300" fill="url(#g4)"/>
+  <rect class="scan" x="0" y="0" width="580" height="2" fill="url(#sg4)"/>
+  <rect x="0" y="0" width="5" height="300" fill="#22d3ee" opacity=".85"/>
+</g>
+<rect x=".5" y=".5" width="579" height="299" rx="18" fill="none" stroke="#1e2a3d"/>
+<text x="28" y="46" class="k">EVIDENCE-DRIVEN IDEA VALIDATION</text>
+<g transform="translate(472,28)"><rect width="84" height="24" rx="12" fill="none" stroke="#34d399" stroke-opacity=".5"/>
+<circle class="dot" cx="13" cy="12" r="3.5" fill="#34d399"/><text x="22" y="16" class="st">BUILDING</text></g>
+<text x="28" y="88" class="t">Preuve</text>
+<text x="28" y="122" class="b">Validates startup ideas by finding people who actually have the</text><text x="28" y="144" class="b">problem and measuring behaviour and commitment, not opinions.</text>
+<text x="28" y="228" class="mv">Hybrid LLM</text>
+<text x="161" y="228" class="ml">local Ollama + Gemini</text>
+<g transform="translate(28,250)"><rect width="73" height="26" rx="7" fill="#162033" stroke="#1e2a3d"/><text x="11" y="17.5" class="c">FastAPI</text></g><g transform="translate(109,250)"><rect width="73" height="26" rx="7" fill="#162033" stroke="#1e2a3d"/><text x="11" y="17.5" class="c">Next.js</text></g><g transform="translate(190,250)"><rect width="59" height="26" rx="7" fill="#162033" stroke="#1e2a3d"/><text x="11" y="17.5" class="c">Redis</text></g><g transform="translate(257,250)"><rect width="73" height="26" rx="7" fill="#162033" stroke="#1e2a3d"/><text x="11" y="17.5" class="c">SearXNG</text></g>
+</svg>

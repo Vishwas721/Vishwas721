@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 70" width="1200" height="70" role="img" aria-label="about">
+<defs><linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset=".35" stop-color="#a78bfa"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient></defs>
+<style>
+  .i{font-family:'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace;font-size:15px;fill:#22d3ee}
+  .t{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:28px;font-weight:800;fill:#e8eef6;letter-spacing:-.4px}
+  .s{font-family:'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;fill:#8a97ab}
+  .ln{transform-origin:0 0;transform:scaleX(0);animation:g 1.2s .2s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes g{to{transform:scaleX(1)}}
+</style>
+<text x="2" y="38" class="i">01</text>
+<text x="44" y="40" class="t">about</text>
+<text x="1198" y="38" class="s" text-anchor="end">whoami --verbose</text>
+<rect class="ln" x="2" y="60" width="1196" height="2" rx="1" fill="url(#hl)"/>
+</svg>
