@@ -2,42 +2,25 @@
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
-  <img src="assets/hero-dark.svg" width="100%" alt="Vishwas K — AI & Full-Stack Systems Engineer. Building agentic RAG pipelines, a transit digital twin in Rust, and geospatial intelligence." />
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" /><img src="assets/hero-dark.svg" width="100%" alt="Vishwas K — AI & Full-Stack Systems Engineer. Building agentic RAG pipelines, a transit digital twin in Rust, and geospatial intelligence." /></picture>
 
-<br /><br />
+<br />
 
-<a href="https://vshwk.vercel.app"><img src="https://img.shields.io/badge/Portfolio-vshwk.vercel.app-0f1521?style=for-the-badge&logo=vercel&logoColor=22d3ee&labelColor=0a0e16" alt="Portfolio" /></a>
-<a href="mailto:vishwasvishu2830@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-0f1521?style=for-the-badge&logo=gmail&logoColor=a78bfa&labelColor=0a0e16" alt="Email" /></a>
-<img src="https://komarev.com/ghpvc/?username=Vishwas721&style=for-the-badge&color=0f1521&labelColor=0a0e16&label=PROFILE%20VIEWS" alt="Profile views" />
+<a href="https://vshwk.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/btn-portfolio-light.svg" /><img src="assets/btn-portfolio-dark.svg" width="24%" alt="Portfolio" /></picture></a>
+<a href="https://www.linkedin.com/in/vishwas-k217/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/btn-linkedin-light.svg" /><img src="assets/btn-linkedin-dark.svg" width="24%" alt="LinkedIn" /></picture></a>
+<a href="https://drive.google.com/file/d/1rEMHNkw6TY7daXSVrY0SwTU7hoBowwBR/view?usp=drive_link"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-resume-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/btn-resume-light.svg" /><img src="assets/btn-resume-dark.svg" width="24%" alt="Résumé" /></picture></a>
+<a href="mailto:vishwasvishu2830@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/btn-email-light.svg" /><img src="assets/btn-email-dark.svg" width="24%" alt="Email" /></picture></a>
 
 </div>
 
 <br />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-about-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/h-about-light.svg" />
-  <img src="assets/h-about-dark.svg" width="100%" alt="01 — about" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/about-light.svg" />
-  <img src="assets/about-dark.svg" width="100%" alt="AI & Full-Stack Systems Engineer based in Bengaluru. B.Tech ISE at REVA University (CGPA 9.16). Top 15 finalist at Code Cubicle 5.0 (Microsoft). Currently shipping Glacies, Preuve, Qnit and Panenka." />
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-about-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/h-about-light.svg" /><img src="assets/h-about-dark.svg" width="100%" alt="01 — about" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/about-light.svg" /><img src="assets/about-dark.svg" width="100%" alt="AI & Full-Stack Systems Engineer based in Bengaluru. B.Tech ISE at REVA University (CGPA 9.16). Top 15 finalist at Code Cubicle 5.0 (Microsoft). Currently shipping Glacies, Preuve, Qnit and Panenka." /></picture>
 
 <br /><br />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-featured-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/h-featured-light.svg" />
-  <img src="assets/h-featured-dark.svg" width="100%" alt="02 — featured work" />
-</picture>
-
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-featured-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/h-featured-light.svg" /><img src="assets/h-featured-dark.svg" width="100%" alt="02 — featured work" /></picture>
 <p align="center">
   <a href="https://github.com/Vishwas721/Glacies"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-glacies-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/card-glacies-light.svg" /><img src="assets/card-glacies-dark.svg" width="49%" alt="Glacies — urban transit digital twin with a Rust RAPTOR router" /></picture></a>
   <a href="https://github.com/Vishwas721/SummAID"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-summaid-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/card-summaid-light.svg" /><img src="assets/card-summaid-dark.svg" width="49%" alt="SummAID — on-prem medical intelligence, clinical review from 12 minutes to under 50 seconds" /></picture></a>
@@ -51,45 +34,17 @@
 
 <br />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-toolbox-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/h-toolbox-light.svg" />
-  <img src="assets/h-toolbox-dark.svg" width="100%" alt="03 — toolbox" />
-</picture>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,rust,java,react,nextjs,nodejs,fastapi,tailwind&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,ts,js,rust,java,react,nextjs,nodejs,fastapi,tailwind&theme=light" />
-    <img src="https://skillicons.dev/icons?i=py,ts,js,rust,java,react,nextjs,nodejs,fastapi,tailwind&theme=dark" alt="Python, TypeScript, JavaScript, Rust, Java, React, Next.js, Node.js, FastAPI, Tailwind" />
-  </picture>
-  <br />
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,redis,prisma,docker,pytorch,opencv,vercel,git,githubactions,linux&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres,redis,prisma,docker,pytorch,opencv,vercel,git,githubactions,linux&theme=light" />
-    <img src="https://skillicons.dev/icons?i=postgres,redis,prisma,docker,pytorch,opencv,vercel,git,githubactions,linux&theme=dark" alt="PostgreSQL, Redis, Prisma, Docker, PyTorch, OpenCV, Vercel, Git, GitHub Actions, Linux" />
-  </picture>
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/toolbox-light.svg" />
-  <img src="assets/toolbox-dark.svg" width="100%" alt="Agents & LLMs: LangGraph, LangChain, MCP, Ollama, Gemini, Pydantic. Retrieval & data: pgvector, Neo4j, PostgreSQL, Redis, SQLAlchemy, Prisma. Geo & vision: PostGIS, H3, GTFS, Leaflet, YOLOv8, EasyOCR. Systems: Rust, FastAPI, Docker, Playwright, arq/RQ, Actions." />
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-toolbox-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/h-toolbox-light.svg" /><img src="assets/h-toolbox-dark.svg" width="100%" alt="03 — toolbox" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/toolbox-light.svg" /><img src="assets/toolbox-dark.svg" width="100%" alt="Toolbox. AI, agents & vision: LangGraph, LangChain, MCP, Ollama, Gemini, PyTorch, YOLOv8, OpenCV, Pydantic. Languages: Python, TypeScript, Rust, JavaScript, Java, SQL. Web & APIs: React, Next.js, FastAPI, Node.js, Tailwind, Leaflet. Data & geo: PostgreSQL, pgvector, PostGIS, Neo4j, Redis, Prisma, SQLAlchemy, H3. Infra: Docker, GitHub Actions, Vercel, Git, Linux." /></picture>
 
 <br /><br />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-activity-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/h-activity-light.svg" />
-  <img src="assets/h-activity-dark.svg" width="100%" alt="04 — activity" />
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-activity-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/h-activity-light.svg" /><img src="assets/h-activity-dark.svg" width="100%" alt="04 — activity" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg" /><img src="assets/stats-dark.svg" width="100%" alt="GitHub activity over the last 12 months: contributions, commits, pull requests, streaks, weekly trend and language mix." /></picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg" />
-  <img src="assets/stats-dark.svg" width="100%" alt="GitHub activity over the last 12 months: contributions, commits, pull requests, streaks, weekly trend and language mix." />
-</picture>
+<br /><br />
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/feed-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/feed-light.svg" /><img src="assets/feed-dark.svg" width="100%" alt="Latest commits across my public repositories, refreshed daily." /></picture>
 
 <br /><br />
 
@@ -107,4 +62,6 @@
 
 <div align="center">
   <sub><code>if it can't cite its source, it doesn't ship.</code></sub>
+  <br />
+  <img src="https://komarev.com/ghpvc/?username=Vishwas721&style=flat-square&color=22d3ee&label=profile+views" alt="Profile views" />
 </div>

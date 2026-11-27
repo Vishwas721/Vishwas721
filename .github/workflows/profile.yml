@@ -26,7 +26,9 @@ jobs:
           python-version: "3.12"
 
       - name: Generate hero, about, stats, toolbox and project cards
-        run: python scripts/build_profile.py
+        run: |
+          pip install --quiet "fonttools==4.60.1"
+          python scripts/build_profile.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
