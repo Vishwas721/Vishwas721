@@ -172,7 +172,7 @@ def icon(t: dict, slug: str | None, x: float, y: float, size: float, color: str 
 
 
 TECH = {  # display name -> (simple-icons slug or None, monogram fallback)
-    "Python": ("python", ""), "TypeScript": ("typescript", ""), "JavaScript": ("javascript", ""),
+    "Python": ("python", ""), "Stellar": ("stellar", ""), "Soroban": (None, "SB"), "WebAssembly": ("webassembly", ""), "TypeScript": ("typescript", ""), "JavaScript": ("javascript", ""),
     "Rust": ("rust", ""), "Java": ("openjdk", ""), "SQL": (None, "SQL"),
     "React": ("react", ""), "Next.js": ("nextdotjs", ""), "Next.js 16": ("nextdotjs", ""),
     "React 19": ("react", ""), "Node.js": ("nodedotjs", ""), "FastAPI": ("fastapi", ""),
@@ -220,6 +220,7 @@ query($login: String!) {
   }
 }"""
 
+FEED_EXCLUDE = {USER.lower(), "qnit-testing"}  # profile repo + confidential work
 IGNORED_LANGS = {"Batchfile", "PowerShell", "Dockerfile", "Mako", "PLpgSQL", "Shell", "GLSL"}
 
 
@@ -266,7 +267,7 @@ def fetch_stats() -> dict:
 
     commits = []
     for repo in u["recent"]["nodes"]:
-        if repo["name"].lower() == USER.lower() or not repo["defaultBranchRef"]:
+        if repo["name"].lower() in FEED_EXCLUDE or not repo["defaultBranchRef"]:
             continue
         for c in repo["defaultBranchRef"]["target"]["history"]["nodes"]:
             login = ((c.get("author") or {}).get("user") or {}).get("login") or ""
@@ -500,7 +501,7 @@ def about(t: dict) -> str:
         [(P, "  based:     "), (S, '"Bengaluru, India"'), (P, ",")],
         [(P, "  education: "), (S, '"B.Tech ISE @ REVA University — CGPA 9.16"'), (P, ",")],
         [(P, "  thinks_in: ["), (S, '"agents"'), (P, ", "), (S, '"graphs"'), (P, ", "), (S, '"geometry"'), (P, ", "), (S, '"latency budgets"'), (P, "],")],
-        [(P, "  shipping:  ["), (S, '"Glacies"'), (P, ", "), (S, '"Preuve"'), (P, ", "), (S, '"Qnit"'), (P, ", "), (S, '"Panenka"'), (P, "],")],
+        [(P, "  shipping:  ["), (S, '"Glacies"'), (P, ", "), (S, '"Preuve"'), (P, ", "), (S, '"Klados"'), (P, ", "), (S, '"Panenka"'), (P, "],")],
         [(P, "  wins:      ["), (S, '"Top 15 — Code Cubicle 5.0 @ Microsoft"'), (P, "],")],
         [(P, "  principle: "), (S, '"if it can\'t cite its source, it doesn\'t ship"'), (P, ",")],
         [(P, "};")],
@@ -767,28 +768,24 @@ def art_privex(t, p):
     return "".join(out)
 
 
-def art_qnit(t, p):
-    a, b = t["a4"], t["warn"]
-    out = []
-    for k in range(7):
-        r0 = 18 + k * 15
-        pts = []
-        for j in range(48):
-            th = j / 48 * 2 * math.pi
-            r = r0 * (1 + .12 * math.sin(3 * th + k) + .06 * math.cos(5 * th - k))
-            pts.append(f"{430 + r * math.cos(th) * 1.5:.1f},{78 + r * math.sin(th) * .8:.1f}")
-        out.append(f'<path d="M{" L".join(pts)} Z" fill="none" stroke="{t["a1"]}" stroke-opacity="{.55 - k * .06:.2f}" stroke-width="1.2"/>')
-    out.append(f'<path d="M20,140 Q290,-40 560,140" id="{p}sun" fill="none" stroke="{b}" stroke-opacity=".45" stroke-dasharray="3 5"/>')
-    out.append(f'<circle r="9" fill="{b}" opacity=".25"><animateMotion dur="9s" repeatCount="indefinite"><mpath href="#{p}sun"/></animateMotion></circle>'
-               f'<circle r="5" fill="{b}"><animateMotion dur="9s" repeatCount="indefinite"><mpath href="#{p}sun"/></animateMotion></circle>')
-    poly = "M120,58 L230,46 L262,104 L178,128 L110,104 Z"
-    out.append(f'<path d="{poly}" fill="{a}" fill-opacity=".14" stroke="{a}" stroke-width="2" stroke-dasharray="7 5" class="dash"/>')
-    for x, y in [(120, 58), (230, 46), (262, 104), (178, 128), (110, 104)]:
-        out.append(f'<rect x="{x - 3.5}" y="{y - 3.5}" width="7" height="7" fill="{t["panel"]}" stroke="{a}" stroke-width="1.8"/>')
-    out.append(f'<text x="186" y="92" text-anchor="middle" font-size="10.5" fill="{a}" style="{ff("M", 700)}">SITE 01</text>')
-    for i, (lab, x) in enumerate([("flood: low", 300), ("wind: SW", 300), ("zone: R2", 300)]):
-        out.append(f'<text x="{40}" y="{24 + i * 14}" font-size="10" fill="{t["muted"]}" style="{ff("M", 400)}">{lab} [{i + 1}]</text>')
-    out.append(f'<text x="560" y="24" text-anchor="end" font-size="12" fill="{t["muted"]}" style="{ff("M", 700)}">N ↑</text>')
+def art_carbon(t, p):
+    a, b = t["a3"], t["a1"]
+    steps = ["ISSUE", "VERIFY", "TRADE", "RETIRE"]
+    xs = [46, 176, 306, 436]
+    out = [f'<path id="{p}ch" d="M{xs[0] + 49},75 H{xs[-1] + 49}" stroke="{t["border"]}" stroke-width="2" stroke-dasharray="4 5" class="dash"/>']
+    for i, (x, lab) in enumerate(zip(xs, steps)):
+        on = f'<animate attributeName="stroke-opacity" values=".3;.3;1;1;.3" keyTimes="0;{i * .2:.2f};{i * .2 + .05:.2f};.92;1" dur="5s" repeatCount="indefinite"/>'
+        glow = f'<animate attributeName="fill-opacity" values=".04;.04;.2;.2;.04" keyTimes="0;{i * .2:.2f};{i * .2 + .05:.2f};.92;1" dur="5s" repeatCount="indefinite"/>'
+        out.append(f'<rect x="{x}" y="42" width="98" height="66" rx="10" fill="{a}" fill-opacity=".04" stroke="{a}" stroke-opacity=".3" stroke-width="1.6">{on}{glow}</rect>'
+                   f'<text x="{x + 12}" y="62" font-size="10" fill="{t["muted"]}" style="{ff("M", 500)}">#{i:02d} · 0x{(i + 3) * 2741 % 65536:04x}</text>'
+                   f'<text x="{x + 12}" y="88" font-size="14" fill="{t["text"]}" style="{ff("M", 700)}">{lab}</text>'
+                   f'<rect x="{x + 12}" y="96" width="{40 + i * 8}" height="3" rx="1.5" fill="{a}" opacity=".5"/>')
+    out.append(f'<g><circle r="11" fill="{b}" fill-opacity=".18" stroke="{b}" stroke-width="1.8"/>'
+               f'<path d="M-4 3 C-6 -3 -1 -7 5 -6 C5 0 1 4 -4 3 Z M-4 3 L1 -2" fill="none" stroke="{b}" stroke-width="1.6" stroke-linecap="round"/>'
+               f'<animateMotion dur="5s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;.05;.8;1" calcMode="linear"><mpath href="#{p}ch"/></animateMotion>'
+               f'<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.8;.88;1" dur="5s" repeatCount="indefinite"/></g>')
+    out.append(f'<text x="46" y="28" font-size="10.5" fill="{t["muted"]}" style="{ff("M", 500)}">soroban · 3 contracts · tCO₂e tokens</text>'
+               f'<text x="356" y="130" text-anchor="middle" font-size="10" fill="{b}" style="{ff("M", 700)}">2.5% fee →</text>')
     return "".join(out)
 
 
@@ -882,9 +879,9 @@ PROJECTS = [
     dict(slug="privex", name="Privex", kind="Agentic visual firewall", status=("SHIPPED", "a1"), accent="a2", art=art_privex,
          blurb="Redacts credentials from live meetings with YOLOv8 + OCR, and remembers context through a vector + Neo4j graph memory orchestrated by LangGraph.",
          metric=("Vector + Graph", "multi-hop hybrid memory"), stack=["LangGraph", "YOLOv8", "Neo4j", "MCP"]),
-    dict(slug="qnit", name="Qnit", kind="Cited site intelligence · India", status=("LIVE", "a3"), accent="a4", art=art_qnit,
-         blurb="Draw a site, get flood, sun path, wind, zoning and infrastructure context — every number cited with source, version and date.",
-         metric=("₹20k–50k", "of consultant work, automated"), stack=["Next.js 16", "React 19", "Python", "Leaflet"]),
+    dict(slug="carbon", name="Carbon Market", kind="On-chain carbon credits", status=("SHIPPED", "a1"), accent="a3", art=art_carbon,
+         blurb="Carbon credits as Stellar tokens: authorised verifiers approve them, a marketplace trades them, and holders retire them to offset emissions.",
+         metric=("3 contracts", "issue → verify → trade → retire"), stack=["Rust", "Soroban", "Stellar", "WebAssembly"]),
     dict(slug="preuve", name="Preuve", kind="Evidence-driven idea validation", status=("BUILDING", "a3"), accent="a1", art=art_preuve,
          blurb="Validates startup ideas by finding people who actually have the problem and measuring behaviour and commitment, not opinions.",
          metric=("Hybrid LLM", "local Ollama + Gemini"), stack=["FastAPI", "Next.js", "Redis", "SearXNG"]),
